@@ -21,8 +21,8 @@ jobs:
         
     - name: Commit and push changes
       run: |
-        git config --local user.email ""
-        git config --local user.name ""
+        git config --local user.email "sina@dankook.ac.kr"
+        git config --local user.name "sinascode"
         git add .
         git commit -m "Update nginx image to latest"
         git push
